@@ -2,16 +2,19 @@
 
 
 
-##GCD 串行并发
+## GCD 串行并发
 
-dispatch_semaphore和dispatch_group可以实现自定义的并发操作, 在指定位置出栈
+#### dispatch_semaphore和dispatch_group可以实现自定义的并发操作, 在指定位置出栈
 
-dispatch_semaphore设置信号量为1, 执行完耗时操作发送信号
+#### dispatch_semaphore设置信号量为1, 执行完耗时操作发送信号
 
-dispatch_group也可以实现, 但是每次都要创建一个group
-
-
-
+#### dispatch_group也可以实现, 但是每次都要创建一个group
+  
+  
+  
+  
+  
+  
 /**
  Group task
  */
